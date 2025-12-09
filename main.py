@@ -6,4 +6,4 @@ app = FastAPI()
 @app.get("/hello")
 def hello():
     request_counter.inc()
-    return {"message": "Hello world"}
+    return {"message": "Hello world!"}
